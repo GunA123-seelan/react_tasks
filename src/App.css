@@ -1,0 +1,51 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.container{ 
+  width: 30%;
+  background: whitesmoke;
+  margin: 0 auto;
+  padding: 20px;
+}
+.input-fields{
+  display: flex;
+  flex-direction: column; 
+  gap: 10px;
+}
+
+input[type="text"]{
+  padding: 10px;
+  border: none;
+  outline: none;
+  border-radius: 3px;
+}
+input[type="text"]:focus{
+  border: 1px solid goldenrod;
+}
+button{
+  padding: 10px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: rgb(116, 0, 0);
+  color:white;
+}
+button:hover{
+  transition: 0.5s ease-in-out;
+  background-color: rgb(85, 0, 0);
+}
+.my-lists{
+  padding: 20px;
+}
+.ul-type>li{
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 500;
+  color:green;
+  margin-bottom: 10px;
+}
+.ul-type>li:hover{
+  color:rgb(129, 40, 40);
+}
